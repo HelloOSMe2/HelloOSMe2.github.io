@@ -20,7 +20,7 @@ html{
     background:#fff;/*style color*/
 }
 body {
-    font-family: Menlo, Monaco, Consolas, "Lucida Console", "Ubuntu Mono","Microsoft YaHei UI","PingFang SC", "SimHei";
+    font-family: Menlo, Monaco, Consolas, "Lucida Console", "Ubuntu Mono","Microsoft YaHei UI","PingFang SC","Noto Sans CJK SC", "SimHei";
     font-size: 87.5%;
     background-image: url('https://cdn.luogu.com.cn/upload/image_hosting/bxq0pdud.png') ;
     /*洛谷图床-win11背景-开花*/
@@ -50,6 +50,8 @@ hr{
 .center{
     display:block;
     text-align: -webkit-center;
+    text-align: -moz-center;
+    text-align: center;
 }
 .hr{
     border-bottom: 1px solid #999;
@@ -286,6 +288,7 @@ hr{
     align-items: center;
     text-align: --webkit-center;
     text-align: center;
+    text-align: -moz-center;
 }
 .item h2{
     margin:5px 0;
